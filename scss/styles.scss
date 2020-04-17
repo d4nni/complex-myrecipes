@@ -5,6 +5,7 @@ $fontcolor: #f77;
 body {
     background-color: $bcolor;
     font-family: 'Cinzel', serif;
+    margin: 8px;
 }
 h1, h2, h3 {
     color: lighten($color: black, $amount: 25%);
@@ -19,7 +20,7 @@ p {
     margin-top: 3em;
 }
 .image {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     padding: 2em;
 }
